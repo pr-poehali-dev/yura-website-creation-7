@@ -1,11 +1,16 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import BonusHeader from "@/components/BonusHeader";
+import BonusLevels from "@/components/BonusLevels";
+import AvailableBonuses from "@/components/AvailableBonuses";
+import BonusHistory from "@/components/BonusHistory";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4 color-black text-black">Добро пожаловать!</h1>
-        <p className="text-xl text-gray-600">тут будет отображаться ваш проект</p>
+    <div className="min-h-screen bg-gray-50">
+      <div className="container mx-auto px-4 py-8 max-w-6xl">
+        <BonusHeader />
+        <BonusLevels />
+        <AvailableBonuses />
+        <BonusHistory />
       </div>
     </div>
   );
