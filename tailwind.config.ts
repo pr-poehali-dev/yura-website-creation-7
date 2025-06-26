@@ -66,6 +66,15 @@ const config: Config = {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Case Battle colors
+        gold: "#FFD700",
+        case: {
+          common: "#B0C4DE",
+          rare: "#4169E1",
+          epic: "#8A2BE2",
+          legendary: "#FFD700",
+          mythical: "#FF4500",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
